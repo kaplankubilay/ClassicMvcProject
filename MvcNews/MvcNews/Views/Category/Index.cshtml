@@ -1,0 +1,40 @@
+﻿@model IEnumerable<MvcNews.Models.SelectCategoryObject>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+@using (Html.BeginForm("Index", "Category", FormMethod.Post))
+{
+    <h2>Haber Kategorileri</h2>
+
+    <p>
+        @Html.ActionLink("Yeni Kategori Ekle", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.Label("CategoryName", "Kategori Adı")
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CategoryName)
+                </td>
+                <td>
+                    @Html.ActionLink("Sil", "Delete", new { CId = item.CId })
+                </td>
+            </tr>
+        }
+
+    </table>
+}
+
+
+
+
+

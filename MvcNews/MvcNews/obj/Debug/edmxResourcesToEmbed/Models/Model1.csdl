@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NewsDbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="NewsDbEntities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="sp_DeleteCategories">
+      <Parameter Name="CId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_DeleteNews">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_InsertCategories">
+      <Parameter Name="CategoryName" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_InsertNews">
+      <Parameter Name="CId" Mode="In" Type="Int32" />
+      <Parameter Name="NewsTitle" Mode="In" Type="String" />
+      <Parameter Name="NewsContent" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_SelectCategories" ReturnType="Collection(NewsDbModel.SelectCategoryObject)" />
+    <FunctionImport Name="sp_SelectCategoryById" ReturnType="Collection(NewsDbModel.SelectCategoryObject)">
+      <Parameter Name="CId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_SelectNews" ReturnType="Collection(NewsDbModel.SelectNewsObject)" />
+    <FunctionImport Name="sp_SelectNewsById" ReturnType="Collection(NewsDbModel.SelectNewsObject)">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_UpdateNews">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+      <Parameter Name="CId" Mode="In" Type="Int32" />
+      <Parameter Name="NewsTitle" Mode="In" Type="String" />
+      <Parameter Name="NewsContent" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="sp_SelectCategories_Result">
+    <Property Type="Int32" Name="CId" Nullable="false" />
+    <Property Type="String" Name="CategoryName" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="sp_SelectCategoryById_Result">
+    <Property Type="Int32" Name="CId" Nullable="false" />
+    <Property Type="String" Name="CategoryName" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="sp_SelectNews_Result">
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="Int32" Name="CId" Nullable="false" />
+    <Property Type="String" Name="CategoryName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="NewsTitle" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="NewsContent" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_SelectNewsById_Result">
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="Int32" Name="CategoryId" Nullable="false" />
+    <Property Type="String" Name="NewsTitle" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="NewsContent" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="SelectCategoryObject">
+    <Property Type="Int32" Name="CId" Nullable="false" />
+    <Property Type="String" Name="CategoryName" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="SelectNewsObject">
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="Int32" Name="CId" Nullable="false" />
+    <Property Type="String" Name="CategoryName" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="NewsTitle" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="NewsContent" Nullable="true" />
+  </ComplexType>
+</Schema>

@@ -1,0 +1,160 @@
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\MvcNews.dll.config
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\MvcNews.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\MvcNews.pdb
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\csc.exe
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\csc.exe.config
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\csc.rsp
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\csi.exe
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\csi.exe.config
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\csi.rsp
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\Microsoft.Managed.Core.targets
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\System.AppContext.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\System.Collections.Immutable.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\System.Console.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\System.IO.Compression.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\System.IO.FileSystem.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\System.IO.Pipes.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\System.Reflection.Metadata.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\System.Security.AccessControl.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\System.Security.Claims.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\System.Security.Principal.Windows.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\System.ValueTuple.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\System.Xml.XmlDocument.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\System.Xml.XPath.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\vbc.exe
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\vbc.exe.config
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\vbc.rsp
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\VBCSCompiler.exe
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\roslyn\VBCSCompiler.exe.config
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\Antlr3.Runtime.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\EntityFramework.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\EntityFramework.SqlServer.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\Microsoft.Web.Infrastructure.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\Newtonsoft.Json.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\System.Web.Helpers.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\System.Web.Mvc.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\System.Web.Optimization.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\System.Web.Razor.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\System.Web.WebPages.Deployment.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\System.Web.WebPages.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\System.Web.WebPages.Razor.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\WebGrease.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\EntityFramework.xml
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\EntityFramework.SqlServer.xml
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\System.Web.Helpers.xml
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\System.Web.Mvc.xml
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\System.Web.Optimization.xml
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\System.Web.Razor.xml
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\System.Web.WebPages.xml
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\System.Web.WebPages.Deployment.xml
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\System.Web.WebPages.Razor.xml
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\Newtonsoft.Json.xml
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\Antlr3.Runtime.pdb
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\obj\Debug\MvcNews.csproj.CoreCompileInputs.cache
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\obj\Debug\MvcNews.csproj.CopyComplete
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\obj\Debug\MvcNews.dll
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\obj\Debug\MvcNews.pdb
+D:\2017 Visual Studio Projects\MvcNews\MvcNews\obj\Debug\MvcNews.csprojAssemblyReference.cache
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\MvcNews.dll.config
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\MvcNews.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\MvcNews.pdb
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\csc.exe
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\csc.exe.config
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\csc.rsp
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\csi.exe
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\csi.exe.config
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\csi.rsp
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\System.AppContext.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\System.Console.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\System.IO.Compression.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\System.Security.Claims.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\System.ValueTuple.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\vbc.exe
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\vbc.exe.config
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\vbc.rsp
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\VBCSCompiler.exe
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\Antlr3.Runtime.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\EntityFramework.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\EntityFramework.SqlServer.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\Newtonsoft.Json.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\System.Web.Helpers.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\System.Web.Mvc.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\System.Web.Optimization.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\System.Web.Razor.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\System.Web.WebPages.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\System.Web.WebPages.Razor.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\WebGrease.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\EntityFramework.xml
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\EntityFramework.SqlServer.xml
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\System.Web.Helpers.xml
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\System.Web.Mvc.xml
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\System.Web.Optimization.xml
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\System.Web.Razor.xml
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\System.Web.WebPages.xml
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\System.Web.WebPages.Razor.xml
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\Newtonsoft.Json.xml
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\Antlr3.Runtime.pdb
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\obj\Debug\MvcNews.csprojAssemblyReference.cache
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\obj\Debug\MvcNews.csproj.CoreCompileInputs.cache
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\obj\Debug\MvcNews.csproj.CopyComplete
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\obj\Debug\MvcNews.dll
+C:\Users\Kubilay\Desktop\MvcNews\MvcNews\obj\Debug\MvcNews.pdb

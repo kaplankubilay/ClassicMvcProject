@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="NewsDbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <Function Name="sp_DeleteCategories" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="CId" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_DeleteNews" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Id" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_InsertCategories" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="CategoryName" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="sp_InsertNews" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="CId" Type="int" Mode="In" />
+          <Parameter Name="NewsTitle" Type="nvarchar" Mode="In" />
+          <Parameter Name="NewsContent" Type="nvarchar(max)" Mode="In" />
+        </Function>
+        <Function Name="sp_SelectCategories" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="sp_SelectCategoryById" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="CId" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_SelectNews" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="sp_SelectNewsById" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Id" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_UpdateNews" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Id" Type="int" Mode="In" />
+          <Parameter Name="CId" Type="int" Mode="In" />
+          <Parameter Name="NewsTitle" Type="nvarchar" Mode="In" />
+          <Parameter Name="NewsContent" Type="nvarchar(max)" Mode="In" />
+        </Function>
+        <EntityContainer Name="NewsDbModelStoreContainer" />
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="NewsDbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="NewsDbEntities" annotation:LazyLoadingEnabled="true" >
+          <FunctionImport Name="sp_DeleteCategories">
+          <Parameter Name="CId" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="sp_DeleteNews">
+          <Parameter Name="Id" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="sp_InsertCategories">
+          <Parameter Name="CategoryName" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="sp_InsertNews">
+            <Parameter Name="CId" Mode="In" Type="Int32" />
+            <Parameter Name="NewsTitle" Mode="In" Type="String" />
+            <Parameter Name="NewsContent" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="sp_SelectCategories" ReturnType="Collection(NewsDbModel.SelectCategoryObject)" />
+          <FunctionImport Name="sp_SelectCategoryById" ReturnType="Collection(NewsDbModel.SelectCategoryObject)">
+          <Parameter Name="CId" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="sp_SelectNews" ReturnType="Collection(NewsDbModel.SelectNewsObject)" />
+          <FunctionImport Name="sp_SelectNewsById" ReturnType="Collection(NewsDbModel.SelectNewsObject)">
+          <Parameter Name="Id" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="sp_UpdateNews">
+            <Parameter Name="Id" Mode="In" Type="Int32" />
+            <Parameter Name="CId" Mode="In" Type="Int32" />
+            <Parameter Name="NewsTitle" Mode="In" Type="String" />
+            <Parameter Name="NewsContent" Mode="In" Type="String" />
+          </FunctionImport>
+        </EntityContainer>
+        <ComplexType Name="sp_SelectCategories_Result">
+          <Property Type="Int32" Name="CId" Nullable="false" />
+          <Property Type="String" Name="CategoryName" Nullable="true" MaxLength="50" />
+        </ComplexType>
+        <ComplexType Name="sp_SelectCategoryById_Result">
+          <Property Type="Int32" Name="CId" Nullable="false" />
+          <Property Type="String" Name="CategoryName" Nullable="true" MaxLength="50" />
+        </ComplexType>
+        <ComplexType Name="sp_SelectNews_Result">
+          <Property Type="Int32" Name="Id" Nullable="false" />
+          <Property Type="Int32" Name="CId" Nullable="false" />
+          <Property Type="String" Name="CategoryName" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="NewsTitle" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="NewsContent" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="sp_SelectNewsById_Result">
+          <Property Type="Int32" Name="Id" Nullable="false" />
+          <Property Type="Int32" Name="CategoryId" Nullable="false" />
+          <Property Type="String" Name="NewsTitle" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="NewsContent" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="SelectCategoryObject">
+          <Property Type="Int32" Name="CId" Nullable="false" />
+          <Property Type="String" Name="CategoryName" Nullable="true" MaxLength="50" />
+        </ComplexType>
+        <ComplexType Name="SelectNewsObject">
+          <Property Type="Int32" Name="Id" Nullable="false" />
+          <Property Type="Int32" Name="CId" Nullable="false" />
+          <Property Type="String" Name="CategoryName" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="NewsTitle" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="NewsContent" Nullable="true" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="NewsDbModelStoreContainer" CdmEntityContainer="NewsDbEntities" >
+          <FunctionImportMapping FunctionImportName="sp_DeleteCategories" FunctionName="NewsDbModel.Store.sp_DeleteCategories" />
+          <FunctionImportMapping FunctionImportName="sp_DeleteNews" FunctionName="NewsDbModel.Store.sp_DeleteNews" />
+          <FunctionImportMapping FunctionImportName="sp_InsertCategories" FunctionName="NewsDbModel.Store.sp_InsertCategories" />
+          <FunctionImportMapping FunctionImportName="sp_InsertNews" FunctionName="NewsDbModel.Store.sp_InsertNews" />
+          <FunctionImportMapping FunctionImportName="sp_SelectCategories" FunctionName="NewsDbModel.Store.sp_SelectCategories">
+          <ResultMapping>
+              <ComplexTypeMapping TypeName="NewsDbModel.SelectCategoryObject">
+                <ScalarProperty Name="CId" ColumnName="CId" />
+                <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_SelectCategoryById" FunctionName="NewsDbModel.Store.sp_SelectCategoryById">
+          <ResultMapping>
+              <ComplexTypeMapping TypeName="NewsDbModel.SelectCategoryObject">
+                <ScalarProperty Name="CId" ColumnName="CId" />
+                <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_SelectNews" FunctionName="NewsDbModel.Store.sp_SelectNews">
+          <ResultMapping>
+              <ComplexTypeMapping TypeName="NewsDbModel.SelectNewsObject">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="CId" ColumnName="CId" />
+                <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+                <ScalarProperty Name="NewsTitle" ColumnName="NewsTitle" />
+                <ScalarProperty Name="NewsContent" ColumnName="NewsContent" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_SelectNewsById" FunctionName="NewsDbModel.Store.sp_SelectNewsById">
+          <ResultMapping>
+              <ComplexTypeMapping TypeName="NewsDbModel.SelectNewsObject">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="CId" ColumnName="CId" />
+                <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+                <ScalarProperty Name="NewsTitle" ColumnName="NewsTitle" />
+                <ScalarProperty Name="NewsContent" ColumnName="NewsContent" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_UpdateNews" FunctionName="NewsDbModel.Store.sp_UpdateNews" />
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

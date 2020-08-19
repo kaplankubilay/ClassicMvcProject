@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="NewsDbModelStoreContainer" CdmEntityContainer="NewsDbEntities">
+    <FunctionImportMapping FunctionImportName="sp_DeleteCategories" FunctionName="NewsDbModel.Store.sp_DeleteCategories" />
+    <FunctionImportMapping FunctionImportName="sp_DeleteNews" FunctionName="NewsDbModel.Store.sp_DeleteNews" />
+    <FunctionImportMapping FunctionImportName="sp_InsertCategories" FunctionName="NewsDbModel.Store.sp_InsertCategories" />
+    <FunctionImportMapping FunctionImportName="sp_InsertNews" FunctionName="NewsDbModel.Store.sp_InsertNews" />
+    <FunctionImportMapping FunctionImportName="sp_SelectCategories" FunctionName="NewsDbModel.Store.sp_SelectCategories">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="NewsDbModel.SelectCategoryObject">
+          <ScalarProperty Name="CId" ColumnName="CId" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_SelectCategoryById" FunctionName="NewsDbModel.Store.sp_SelectCategoryById">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="NewsDbModel.SelectCategoryObject">
+          <ScalarProperty Name="CId" ColumnName="CId" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_SelectNews" FunctionName="NewsDbModel.Store.sp_SelectNews">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="NewsDbModel.SelectNewsObject">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CId" ColumnName="CId" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+          <ScalarProperty Name="NewsTitle" ColumnName="NewsTitle" />
+          <ScalarProperty Name="NewsContent" ColumnName="NewsContent" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_SelectNewsById" FunctionName="NewsDbModel.Store.sp_SelectNewsById">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="NewsDbModel.SelectNewsObject">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CId" ColumnName="CId" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+          <ScalarProperty Name="NewsTitle" ColumnName="NewsTitle" />
+          <ScalarProperty Name="NewsContent" ColumnName="NewsContent" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_UpdateNews" FunctionName="NewsDbModel.Store.sp_UpdateNews" />
+  </EntityContainerMapping>
+</Mapping>
